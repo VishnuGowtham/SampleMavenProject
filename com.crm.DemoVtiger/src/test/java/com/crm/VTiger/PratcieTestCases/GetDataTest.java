@@ -1,0 +1,16 @@
+package com.crm.VTiger.PratcieTestCases;
+
+import org.testng.annotations.Test;
+
+public class GetDataTest {
+
+	@Test
+	public void getData() {
+		
+		System.out.println(System.getProperty("browser"));
+		System.out.println(System.getProperty("url"));
+		System.out.println(System.getProperty("username"));
+		System.out.println(System.getProperty("password"));
+		
+	}
+}
